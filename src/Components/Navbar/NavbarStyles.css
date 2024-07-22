@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(19, 23, 34) !important;
+    color: #fff;
+    font-family: "Montserrat Alternates", sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    font-size: 16px !important;
+}
+.color-1{
+    
+    color: #000 !important;
+}
+.movies-back{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.text-decoration{
+    text-decoration: none !important;
+}
+.button-color{
+background-color:rgb( 22, 163, 185) !important;
+color: #fff !important;
+}
+.span-rate{
+    width:80px !important;
+    height: 56px !important;
+    background-color: #ff206e;
+    z-index: 1;
+    bottom: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-color{
+    color: rgb(151, 158, 166) !important;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 23, 34) !important;
+    align-items: center;
+}
+.nav h1{
+    color: #fff;
+    margin-left: 40px;
+}
+.Nav-Navi-color{
+    color: #fff !important;
+    text-decoration: none;
+}
+.border-none{
+    border: none !important;
+}
+
+.icons-cursor{
+    cursor: pointer;
+}
+.nav-span{
+    cursor: pointer;
+}
+.nav-span:hover{
+    color: #fff;
+    border-bottom: 2px solid #EE9B00;
+    padding-bottom: 5px;
+}
+
+#navBarColor{
+    background-color: yellow;
+    transition-duration: .6s;
+    height: 100%;
+}
+#search-black{
+   border-color: black;
+   background-color: black;
+}
+
+
+#heading{
+    color: #000 !important;
+}
+#navBarColor span:hover{
+    border-bottom: 2px solid #ff206e;
+    padding-bottom: 5px;
+}
+
+#Color-switcher{
+    position: relative;
+    margin-right: 40px;
+    background-color: #413E44;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+#Color-switcher-mover{
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    background-color: #fff;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    transition: .6s;
+}
+#Color-switcher-moved{
+    position: absolute;
+    background-color: #fff;
+    left: 28px;
+    top: 4px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    transition: .6s;
+}
